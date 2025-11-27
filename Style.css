@@ -1,0 +1,90 @@
+/* Importación de tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* ======== ESTILOS BASE ======== */
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;   /* SMOG */
+    color: #5C636D;              /* CLOUD */
+}
+
+/* ======== HEADER ======== */
+header{
+    background-color: #5C636D;  /* SMOG */
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header p{
+    font-size: 22px;
+    color: #F4F4F4;             /* CLOUD */
+}
+
+/* ======== TITULOS ======== */
+h1, h2{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h1{
+    font-size: 48px;
+    color: #F4F4F4;             /* CLOUD */
+}
+
+h2{
+    font-size: 28px;
+    color: #5C636D;
+}
+
+/* ======== TEXTOS ======== */
+p{
+    font-size: 18px;
+    text-align: justify;
+    color: #5C636D;             /* CLOUD */
+}
+
+/* ======== TABLAS ======== */
+table{
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #F4F4F4;   /* SMOG */
+    border: 1px solid #5C636D;   /* CLOUD */
+}
+
+td{
+    padding: 15px;
+    border: 1px solid #5C636D;
+    vertical-align: top;
+}
+
+/* ======== IMÁGENES ======== */
+.imagen-dino{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* ======== NOMBRE DEL DINOSAURIO ======== */
+.nombre{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #5C636D;              /* CLOUD */
+}
+
+/* ======== FOOTER ======== */
+footer p{
+    text-align: center;
+    padding: 1rem;
+    background-color: #5C636D;  /* SMOG */
+    color: #F4F4F4;             /* CLOUD */
+    margin: 0;
+}
